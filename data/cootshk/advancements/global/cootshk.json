@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Cootshk's Datapacks",
+        "description": "Datapacks made by me. Contact me @ cootshk on discord",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'Cootshk'}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

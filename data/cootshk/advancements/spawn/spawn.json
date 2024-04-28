@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Spawn",
+        "description": "Allows you to warp to spawn with /trigger Spawn",
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "cootshk:global/cootshk",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
