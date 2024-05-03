@@ -1,0 +1,15 @@
+{
+    "schemaVersion":1,
+    "id":"spawnwarp",
+    "version":"1.1.0",
+    "name":"SpawnWarp",
+    "description":"Simple spawn warp datapack",
+    "authors":["cootshk"],
+    "contact":{"homepage":"https://modrinth.com/datapack/spawnwarp"},
+    "license":"GPL-3.0-or-later",
+    "icon":"spawnwarp_pack.png",
+    "environment":"*",
+    "depends":{
+        "fabric-resource-loader-v0":"*"
+    }
+}

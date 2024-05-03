@@ -1,0 +1,23 @@
+{
+    "schema_version":1,
+    "quilt_loader": {
+        "group": "io.github.cootshk",
+        "id": "spawnwarp",
+        "version": "1.1.0",
+        "metadata": {
+            "name": "SpawnWarp",
+            "description": "Simple spawn warp datapack",
+            "contributors": {"cootshk":"Member"},
+            "contact": {"homepage":"https://modrinth.com/datapack/spawnwarp"},
+            "icon":"spawnwarp_pack.png"
+        },
+        "intermediate_mappings":"net.fabricmc:intermediary",
+        "depends": [
+            {
+                "id":"quilt_resource_loader",
+                "versions":"*",
+                "unless":"fabric-resource-loader-v0"
+            }
+        ]
+    }
+}
