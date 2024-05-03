@@ -1,0 +1,4 @@
+name: DatapackBundle
+version: '${project.version}'
+main: io.github.cootshk.datapackbundle.DatapackBundle
+api-version: '1.20'
